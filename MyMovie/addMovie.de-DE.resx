@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeen.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeen.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbSeen.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbSeen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbShoppingCart.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbShoppingCart.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pbShoppingCart.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pbShoppingCart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="pbShoppingCart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWish.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWish.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbWish.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clbGenre.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clbGenre.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="clbGenre.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="clbGenre.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbActor.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbActor.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="rtbActor.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbActor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="starRating2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="starRating2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="starRating2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="starRating2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbDesc.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbDesc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="rtbDesc.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbDesc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearch.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearch.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSearch.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        t3T9D7CSFMrFmj+RAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbTitel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTitel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbTitel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbTitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numYear.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numYear.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numYear.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numYear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbOrgtitel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbOrgtitel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbOrgtitel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbOrgtitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRegi.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRegi.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbRegi.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbRegi.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbGenre.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbGenre.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbGenre.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbGenre.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRecieve.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRecieve.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRecieve.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRecieve.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLent.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLent.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnLent.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnLent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbLentTo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbLentTo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbLentTo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbLentTo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbHPLink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbHPLink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbHPLink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbHPLink.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTrailer.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTrailer.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tbTrailer.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbTrailer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numPreis.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numPreis.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numPreis.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numPreis.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numAnzahl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numAnzahl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numAnzahl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numAnzahl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMedType.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMedType.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbMedType.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbMedType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddScreen.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddScreen.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnAddScreen.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAddScreen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbVorschau.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbVorschau.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pbVorschau.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pbVorschau.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flowLayoutPanel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flowLayoutPanel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="flowLayoutPanel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSave.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbImage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbImage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pbImage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pbImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlheACoAPcAAAAAAAMJDQYSGggbKAslNw0uRRA3UhJAYBVKbxhTfBpcih1llyBvpiJ4tCWBwSeK
+        zy+T2T2a20qh3lio4Gew43S35oK+6I/F657N7qzU8Lnb88fi9dbq+P//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /ywAAAAAeACoAAAI/wABCBxIsKDBgwgTKlzIsKHDhwA2cNggkeLEihgvarTIMWPHjR5Dghz5saRIkyRP
+        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
+        kAgREAA7
+</value>
+  </data>
+  <data name="pbImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddScreen.Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="cbSeen.Text" xml:space="preserve">
+    <value>Gesehen</value>
+  </data>
+  <data name="cbWish.Text" xml:space="preserve">
+    <value>Wunschliste</value>
+  </data>
+  <data name="groupBox1.text" xml:space="preserve">
+    <value>Schauspieler</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Film HP:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Hauptgenre:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Regisseur:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Jahr:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Nebengenre:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Anzahl:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Preis:</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Zusätzlich</value>
+  </data>
+</root>
